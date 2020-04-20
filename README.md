@@ -8,8 +8,8 @@
 
 # Node js
 To debug node application  we should to
-1. Add <mark> dubugger </mark> keyword anywhere in code
-1. Then in terminal write
+1. Add <mark> debugger </mark> keyword anywhere in code
+1. Then in terminal fired following command
  ```bash
  $ node --inspect-brk filename.js
   or
@@ -45,8 +45,14 @@ $ heroku keys:add
 $ y
 ```
 ## Create Heroku Application
-AT first Go the root of the Project and fired followind 
+To create heroku app your project must be uploaded to Github first , if so then Go the root of the Project and fire following
 command :-
+```bash
+$ git remote
+// Origin
+//heroku  this remote must be shown after git remote command
+```
+
 ```bash
 $ heroku create <filename>
 $ heroku create nabin-weather-app 
