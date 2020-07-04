@@ -61,6 +61,35 @@ The file name should be unique and identifying so that all the heroku applicatio
 > $ heroku create nabin-weather-app 
 
 
+## .env setup
+The regular way to set up environment variables is
+```bash
+$ heroku config:set key=value
+```
+To see the configuration
+```bash
+$ heroku config
+//this will show all the config of .env
+```
+To remove the configuration
+```bash
+$ heroku config:unset key
+```
+For complete Example:-
+```bash
+//To add 
+$ heroku config:set jwt=demoStringsExmple
+
+//To view
+$ heroku config
+
+//To remove or unset
+$ heroku config:unset jwt
+```
+And push to heroku as same as pushing to Github
+```bash
+$ git push heroku master
+```
 ---
 ---
 # MongoSetup
