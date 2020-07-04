@@ -63,8 +63,15 @@ The file name should be unique and identifying so that all the heroku applicatio
 
 ---
 ---
+# MongoSetup
+## Whitelist a connection IP address
+>add a different ip address
 
+0.0.0.0/0
 
+>>save db id and password
+---
+---
  # SSH
 > This is only for Windows machine
 ## To search SSH folder
