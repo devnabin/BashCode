@@ -29,3 +29,8 @@ Directly type Ctrl+p to see all of the files in active directory inside Vs-code
 # Selecting Technique
 
 > Ctrl+L is used to select line directly and pressing ctrl+L for many time its goes selecting line soon
+
+
+# Commenting in Files
+> Ctrl + / is used for single line comment 
+> Shift + Alt + A is used for multi line comment
